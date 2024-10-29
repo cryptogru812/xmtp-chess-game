@@ -1,0 +1,143 @@
+.white_pawn {
+    background-image: url('assets/chess_sprite.png');
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: calc(100% * 2) auto;
+    background-repeat: no-repeat;
+}
+
+.black_pawn {
+    background-image: url('assets/chess_sprite.png');
+    background-position-x: calc(100%);
+    background-position-y: 0;
+    background-size: calc(100% * 2) auto;
+    background-repeat: no-repeat;
+}
+
+.white_rook {
+    background-image: url('assets/chess_sprite.png');
+    background-position-x: 0;
+    background-position-y: calc(100% / 5);
+    background-size: calc(100% * 2) auto;
+    background-repeat: no-repeat;
+}
+
+.black_rook {
+    background-image: url('assets/chess_sprite.png');
+    background-position-x: calc(100%);
+    background-position-y: calc(100% / 5);
+    background-size: calc(100% * 2) auto;
+    background-repeat: no-repeat;
+}
+
+.white_knight {
+    background-image: url('assets/chess_sprite.png');
+    background-position-x: 0;
+    background-position-y: calc(100% / 5 * 2);
+    background-size: calc(100% * 2) auto;
+    background-repeat: no-repeat;
+}
+
+.black_knight {
+    background-image: url('assets/chess_sprite.png');
+    background-position-x: calc(100%);
+    background-position-y: calc(100% / 5 * 2);
+    background-size: calc(100% * 2) auto;
+    background-repeat: no-repeat;
+}
+
+.white_bishop {
+    background-image: url('assets/chess_sprite.png');
+    background-position-x: 0;
+    background-position-y: calc(100% / 5 * 3);
+    background-size: calc(100% * 2) auto;
+    background-repeat: no-repeat;
+}
+
+.black_bishop {
+    background-image: url('assets/chess_sprite.png');
+    background-position-x: calc(100%);
+    background-position-y: calc(100% / 5 * 3);
+    background-size: calc(100% * 2) auto;
+    background-repeat: no-repeat;
+}
+
+.white_queen {
+    background-image: url('assets/chess_sprite.png');
+    background-position-x: 0;
+    background-position-y: calc(100% / 5 * 4);
+    background-size: calc(100% * 2) auto;
+    background-repeat: no-repeat;
+}
+
+.black_queen {
+    background-image: url('assets/chess_sprite.png');
+    background-position-x: calc(100%);
+    background-position-y: calc(100% / 5 * 4);
+    background-size: calc(100% * 2) auto;
+    background-repeat: no-repeat;
+}
+
+.white_king {
+    background-image: url('assets/chess_sprite.png');
+    background-position-x: 0;
+    background-position-y: calc(100% / 5 * 5);
+    background-size: calc(100% * 2) auto;
+    background-repeat: no-repeat;
+}
+
+.black_king {
+    background-image: url('assets/chess_sprite.png');
+    background-position-x: calc(100%);
+    background-position-y: calc(100% / 5 * 5);
+    background-size: calc(100% * 2) auto;
+    background-repeat: no-repeat;
+}
+
+.display_board div:nth-child(1) {
+    border-top-left-radius: 0.375rem;
+}
+
+.display_board div:nth-child(8) {
+    border-top-right-radius: 0.375rem;
+}
+
+.display_board div:nth-child(57) {
+    border-bottom-left-radius: 0.375rem;
+}
+
+.display_board div:nth-child(64) {
+    border-bottom-right-radius: 0.375rem;
+}
+
+.game_board button:nth-child(1) {
+    border-top-left-radius: 0.375rem;
+}
+
+.game_board button:nth-child(8) {
+    border-top-right-radius: 0.375rem;
+}
+
+.game_board button:nth-child(57) {
+    border-bottom-left-radius: 0.375rem;
+}
+
+.game_board button:nth-child(64) {
+    border-bottom-right-radius: 0.375rem;
+}
+
+.div-M {
+    background-color: #88B452;
+}
+
+.div-C {
+    background-color: #F0D9B5;
+}
+
+.div-E {
+    background-color: #88B452;
+}
+
+.div-T {
+    background-color: #F0D9B5;
+}
